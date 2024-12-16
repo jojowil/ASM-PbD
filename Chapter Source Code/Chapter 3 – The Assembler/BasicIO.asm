@@ -5,7 +5,7 @@ define  CR      $0d
 
         ldx #0        ; set index to zero
 
-       ; ask them their name
+        ; ask them their name
 printQuery:
         lda query,x
         beq endp
